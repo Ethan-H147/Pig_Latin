@@ -6,10 +6,9 @@ public class PigLatin {
     Scanner scan = new Scanner(System.in);
     String word = "";
     word = scan.nextLine();
-    int length = word.length();
     String letter;
     letter = word.substring(0, 1);
-    String s = word.substring(1,length);
+    String s = word.substring(1);
     System.out.print(s+letter+"ay");
     }
 
